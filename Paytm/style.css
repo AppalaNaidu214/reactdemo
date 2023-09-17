@@ -1,0 +1,914 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter,sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navLeft img{
+margin-left: 15px;
+}
+.navmiddle ul{
+    display: flex;
+    margin-top: 20px;
+
+}
+ul li{
+    list-style: none;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.button button{
+    margin-top: 40px;
+    margin-left: -10px;
+    border-radius: 50px;
+    background-color: rgb(0,186,242);
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.button button:hover{
+    background-color: blue;
+    color: black; 
+}
+.button i{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+}
+.navdown{
+    text-align: center;
+    background-color: rgb(246,246,246);
+    padding: 25px;
+    font-size: 20px;
+}
+.navdown span{
+    font-size: 35px;
+}
+    /*Home page code  */
+
+
+.homepage {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+}
+
+.home-left img {
+    margin-bottom: 70px;
+}
+
+.home-left h1 {
+    font-size: 54px;
+    font-weight: 700;
+    /* margin-right: 400px; */
+    width: 70%;
+    /* border: 1px solid red; */
+    font-family: Inter, sans-serif;
+    margin-bottom: 30px;
+}
+
+.home-left p {
+    font-family: Inter, sans-serif;
+    line-height: 1.8;
+    font-size: 23px;
+
+}
+
+.home-left button {
+    margin-top: 50px;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+.home-left button:hover {
+    background-color: white;
+    color: black;
+}
+
+.home-left button i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.home-right {
+
+    width: 50%;
+    height: 80px;
+}
+
+/* payment css */
+
+.home-down {
+    background-color: rgb(0, 186, 242);
+    height: 350px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.home-down h1 {
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+    margin-left: 40px;
+    color: white;
+    /* box-sizing: border-box; */
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+/* .card {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+} */
+
+.card h4 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+ .card img {
+    width: 70px;
+    height: 70px; 
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card{
+    border-radius: 10px;
+    width: 170px;
+    height: 180px;
+    border-radius: 20px;
+}
+ .card:hover{
+        background-color:rgb(71, 199, 238) ;
+         /* border-radius: 10px; */
+         /* width: 170px;
+    height: 170px; */
+   
+    } 
+
+    /* booking code */
+    .bookings{
+        background-color: rgb(15,74,138);
+        height: 350px;
+    
+    }
+    .bookings h1{
+        padding: 50px;
+        color: white;
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        font-weight: 700;
+    }
+    .cards-set{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .card-List{
+        /* box-sizing: border-box; */
+        /* border: 1px solid white; */
+        color: white;
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+      
+    }
+    .card-List img{
+        width: 70px;
+        height: 70px; 
+        box-sizing: border-box;
+        margin-left: 20px;
+        margin-top: 20px;
+    
+    }
+    .card-List:hover{
+   background-color: rgb(33, 64, 97); ;
+
+
+    }
+
+    /* wallat css */
+    .wallet{
+        background-color:rgb(243,245,248);
+        
+    }
+    .wallet h1{
+        padding: 80px;
+        margin-left: 30px;
+        margin-bottom: -35px;
+        font-size: 70px;
+    }
+    .mainwallet{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+      background-color:rgb(255,255,255);
+      margin-left: 180px;
+      margin-right: 80px;
+      margin-top: 0px;
+    }
+    .wallet-Left{
+     width: 40%;
+     color: black;
+     margin-left: 80px;
+     margin-top: 100px;
+    }
+    .wallet-Left img{
+        margin-top: 10px;
+         border-radius: 0px;
+        }
+    .span{
+        font-size: 30px;
+       position: absolute;
+        margin: 20px;
+
+    }
+    .wallet-Left h1{
+   margin-left:-100px;
+   margin-top: -30px;
+   font-size: 45px;
+   font-weight: 700;
+    }
+    .wallet-Left p{
+        margin-top: -60px;
+        margin-left: -10px;
+        font-size: 23px;
+    }
+    .wallet-Left button {
+         margin-top: 50px;
+        width: 350px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: black;
+        color: white; 
+        font-size: 17px;
+
+    }
+    
+     .wallet-Left button:hover {
+        background-color: white;
+        color: black; 
+    }
+        .wallet-Left button i {
+            margin: 10px;
+            font-size: 20px;
+        }
+    
+    .wallet-Right{
+        width: 60%;
+        margin-right: 0px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+
+    /* transfor code */
+    .transfor{
+        background-color:rgb(243,245,248);
+        
+        padding: 10px;
+       
+        
+    }
+    .transfor h1{
+         padding: 80px; 
+    }
+    .mainTransfor{
+        display: flex;
+        padding-top: 80px;
+        margin-top: 80px;
+      background-color:rgb(255,255,255);
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    .transfor-Left{
+     width: 40%;
+     color: black;
+     margin-left: 80px;
+    }
+    .transfor-Left img{
+        margin-top: 10px;
+         border-radius: 0px;
+        }
+    .span{
+        font-size: 20px;
+       position: absolute;
+        margin: 20px;
+    }
+    .transfor-Left h1{
+   margin-left:-100px;
+   margin-top: -30px;
+   font-size: 36px;
+   font-weight: 700
+    }
+    .transfor-Left p{
+        margin-top: -60px;
+        margin-left: -20px;
+        font-size: 18px;
+    }
+    .transfor-Left button {
+         margin-top: 30px;
+        width: 350px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: black;
+        color: white; 
+        font-size: 17px;
+
+    }
+    
+     .transfor-Left button:hover {
+        background-color: white;
+        color: black; 
+    }
+        .transfor-Left button i {
+            margin: 10px;
+            font-size: 20px;
+        }
+    
+    .transfor-Right{
+
+        width: 60%;
+        margin-right: 80px;
+    }
+    /* Postpaid code */
+    .postpaid{
+        background-color:rgb(243,245,248);
+        display: flex;
+        padding: 10px;
+       
+        
+    }
+    .postpaid h1{
+         padding: 80px; 
+        
+    }
+    .mainPostpaid{
+        display: flex;
+        padding-top: 80px;
+        margin-top: 40px;
+      background-color:rgb(255,255,255);
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    .postpaid-Left{
+     width: 40%;
+     color: black;
+     margin-left: 180px;
+    }
+    .postpaid-Left img{
+        margin-top: 10px;
+         border-radius: 0px;
+        }
+    .span{
+        font-size: 20px;
+       position: absolute;
+        margin: 20px;
+    }
+    .postpaid-Left h1{
+   margin-left:-100px;
+   margin-top: -30px;
+   font-size: 50px;
+   margin-left: -39px;
+   width: 350px;
+    }
+    .postpaid-Left p{
+        margin-top: -60px;
+        margin-left: -20px;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .postpaid-Left button {
+         margin-top: 30px;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        background-color:  rgb(0,41,112);
+        color: white; 
+        font-size: 20px;
+
+    }
+    
+     .postpaid-Left button:hover {
+        background-color: rgb(0,186,242);
+        color: black; 
+    }
+        .postpaid-Left button i {
+            margin: 10px;
+            font-size: 20px;
+        }
+    
+    .postpaid-Right{
+
+        width: 60%;
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+    /* card payments */
+    .cardPay{
+        background-color:rgb(243,245,248);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .hdfc{
+        width: 50;
+        background-color:rgb(255,255,255);
+        margin: 30px;
+        margin-left: 50px;
+        padding: 100px;
+        border-radius: 50px;
+    
+    }
+    .hdfc h1{
+        font-size: 50px;
+    }
+    .hdfc p{
+        font-size: 25px;
+    }
+    .sbi{
+    
+        width: 50;
+        background-color:rgb(255,255,255);
+        margin: 30px;
+        margin-left: 40px;
+        margin-right: 90px;
+        padding: 120px;
+        border-radius: 50px;
+    }
+    .sbi h1{
+        font-size: 50px;
+    }
+    .sbi p{
+        font-size: 25px;
+    }
+
+    /* financial code */
+    .mainFinancial{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+       
+       background-color: rgb(255,255,255);
+    
+    }
+    .financial{
+        width: 80%;
+         margin-top: 80;
+         margin-left: 60px;
+    }
+    .financial h1{
+        padding: 80px;
+        margin-left: -20px;
+        margin-bottom: -35px;
+        margin-top: -90px;
+        font-size: 75px;
+    }
+    .financial-left img{
+        margin-left: 60px;
+        margin-bottom: 60px;
+    }
+    .financial-left p{
+        margin-left: 0px;
+        font-size: 27px;
+        margin-left: 40px;
+
+    }
+    .financial-left h1{
+        margin-left:- 35px;
+        font-size: 45px;
+    }
+    .financial-right{
+        width: 90%;
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+    .financial-left button{
+        margin-top: 30px;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        background-color:  rgb(0,41,112);
+        color: white; 
+        font-size: 20px;
+        margin-left: 30px
+
+    }
+    
+     .financial-left button:hover {
+        background-color: rgb(0,186,242);
+        color: black; 
+    
+    }
+    .financial-right{
+        width: 90%;
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+    .financial-right img{
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+
+/* Long Term */
+/* .mainLongTerm{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+   
+   background-color: rgb(255,255,255);
+
+} */
+.longTerm{
+margin-top: 700px;
+    display: flex;
+    width: 90%;
+    height: 600px;
+     margin: 90px;
+     margin-left: 60px;
+     /* border: 1px solid red; */
+     background-image: url("../images/gray-spike.png");
+     background-color: rgb(245,247,250);
+}
+.longTerm-left img{
+    margin: 80px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+.longTerm-left p{
+    margin: 50px;
+    margin-left: 0px;
+    font-size: 27px;
+    margin-left: 40px;
+
+}
+.longTerm-left h1{
+    margin-left:- 35px;
+    font-size: 50px;
+    font-weight: 20px;
+    /* border: 1px solid red; */
+}
+.longTerm-right{
+    width: 120%;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.longTerm-left button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:  rgb(0,41,112);
+    color: white; 
+    font-size: 20px;
+    margin-left: 30px
+
+}
+
+ .longTerm-left button:hover {
+    background-color: rgb(0,186,242);
+    color: black; 
+
+}
+.longTerm-right{
+    width: 90%;
+    margin-left: 150px;
+    margin-right: 0px;
+}
+.longTerm-right img{
+    margin-left: -90px;
+    margin-right: 10px;
+}
+/* Insurance code */
+.insurance{
+    margin-top: 700px;
+        display: flex;
+        width: 90%;
+        height: 600px;
+         margin: 90px;
+         margin-left: 60px;
+    
+         background-color: rgb(255,255,255);
+    }
+    .insurance-left img{
+              padding: 50px;
+              
+    
+    }
+    .insurance-left p{
+        margin: 30px;
+        font-size: 27px;
+        margin-left: 55px;
+        font-weight: 10px;
+    
+    }
+    .insurance-left h1{
+        margin-left: 55px;
+        font-size: 50px;
+        font-weight: 20px;
+        /* border: 1px solid red; */
+    }
+    .insurance-right{
+        width: 120%;
+        margin-top: 80px;
+        margin-left: 150px;
+        margin-right: 10px;
+    }
+    .insurance-left button{
+        margin-top: 20px;
+        width: 150px;
+        height: 60px;
+        border-radius: 50px;
+        background-color:  rgb(0,41,112);
+        color: white; 
+        font-size: 20px;
+        margin-left: 50px
+    
+    }
+    
+     .insurance-left button:hover {
+        background-color: rgb(0,186,242);
+        color: black; 
+    
+    }
+    .insurance-right{
+        width: 90%;
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+
+    /* Lone code */
+    .lone{
+        margin-top: 700px;
+            display: flex;
+            width: 100%;
+            height: 600px;
+             margin: 90px;
+             margin-left: 0px; 
+             margin-right: 0px;
+             /* border: 1px solid red; */
+             background-image: url("../images/gray-spike.png");
+             background-color: rgb(245,247,250);
+        }
+        .lone-left img{
+            margin: 80px;
+            margin-left: 10px;
+            margin-bottom: 60px;
+        }
+        .lone-left p{
+            margin: 30px;
+            font-size: 27px;
+            margin-left: 10px;
+        
+        }
+        .lone h1{
+            margin-left:- 35px;
+            font-size: 55px;
+            font-weight: 20px;
+            /* border: 1px solid red; */
+        }
+        .lone-right{
+            width: 120%;
+            margin-top: 80px;
+            margin-left: 150px;
+            margin-right: 10px;
+        }
+        .lone-left button{
+            width: 190px;
+            height: 60px;
+            border-radius: 50px;
+            background-color:  rgb(0,41,112);
+            color: white; 
+            font-size: 20px;
+            margin-left: 10px
+        
+        }
+        
+         .lone-left button:hover {
+            background-color: rgb(0,186,242);
+            color: black; 
+        
+        }
+        .lone-right{
+            width: 90%;
+            margin-left: 250px;
+            margin-right: 0px;
+        }
+        .lone-right img{
+            margin-left: -90px;
+            margin-right: 10px;
+        }
+
+        /* services code */
+        .service{
+            background-color: rgb(255,255,255);
+            /* background-color:rgb(243,245,248); */
+            height: 500px;
+        }
+        .service h1{
+            padding: 80px;
+            margin-left: 30px;
+            margin-bottom: -10px;
+            font-size: 70px;
+        }
+        .mainservice{
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+           
+          
+          margin-left: 80px;
+          margin-right: 80px;
+          margin-top: -120px;
+        }
+        .service-Left{
+         width: 100%;
+         color: black;
+         margin-left: 100px;
+         margin-top: 100px;
+         background-color:rgb(245,247,250);
+        }
+        .service-Left img{
+            margin-top: 10px;
+             border-radius: 0px;
+            }
+
+        .service-Left h1{
+       margin-left:50px;
+       margin-top: 90px;
+       font-size: 45px;
+        }
+        .service-Left p{
+            margin-top: -60px;
+            margin-left: 120px;
+            font-size: 25px;
+        }
+        .service-Left button {
+            margin-top: 20px;
+            width: 250px;
+            height: 60px;
+            border-radius: 50px;
+            background-color:  rgb(0,41,112);
+            color: white; 
+            font-size: 20px;
+            margin-left: 120px
+    
+        }
+        
+         .service-Left button:hover {
+            background-color: rgb(0,186,242);
+            color: black; 
+         }
+        
+        .service-Right{
+            width: 60%;
+            margin-right: 0px;
+            margin-top: 100px;
+        }
+        /* shopping code */
+        .shopping{
+            
+                display: flex;
+                width: 90%;
+                border-radius: 50px;
+                 margin: 290px;
+                 margin-left: 100px; 
+                 margin-right: 0px;   
+                 background-color: rgb(245,247,250);
+            }
+            .shopping-left img{
+                margin: 80px;
+                margin-left: 10px;
+                margin-bottom: 60px;
+            }
+            .shopping-left p{
+                margin: 30px;
+                font-size: 24px;
+                font-family: Inter, sans-serif;
+                margin-left: 150px;
+            
+            }
+            .shopping h1{
+                margin-left: 150px;
+                margin-top: 150px;
+                font-size: 55px;
+                font-weight: 20px;
+                /* border: 1px solid red; */
+            }
+            .shopping-right{
+                width: 120%;
+                margin-top: 80px;
+                margin-left: 150px;
+                margin-right: 10px;
+            }
+            .shopping-left button{
+                position: relative;
+                width: 190px;
+                height: 60px;
+                border-radius: 50px;
+                background-color:  rgb(0,41,112);
+                color: white; 
+                font-size: 20px;
+                margin-left: 150px;
+                transition: all 400ms;
+            
+            }
+            
+            
+             /* .shopping-left button:hover {
+                background-color: rgb(0,186,242);
+                color: black;  }*/
+            
+                
+            
+            .shopping-left button::after:hover{
+                content: "Learn more ->";
+                background-color: rgb(0,186,242);
+                color: black;
+            }
+            .shopping-left button::before{
+                content: "Learn more >";
+            }
+            .shopping-right{
+                width: 90%;
+                margin-left: 250px;
+                margin-right: 0px;
+            }
+            .shopping-right img{
+                margin-left: -20px;
+                margin-right: 10px;
+            }
+
+            /* Tools */
+            .toolset{
+                margin-top: -200px;
+            }
+            .toolset h1{
+          font-size: 60px;
+          margin-left: 50px;
+          width: 50%;
+
+            }
+            .tools{
+                display: flex;
+               justify-content: space-between;
+               width: 80%;
+               margin-right: 0px;
+               margin-left: 40px;
+               box-sizing: border-box;
+            }
+            .tool{
+                box-sizing: border-box;
+                width: 70px;
+                height: 70px;
+            }
+            .tool h1{
+                margin-top: 50px;
+        width: 300px;
+        font-size: 50px;
+                }
+        
+            .tool h2{
+            margin-top: 50px;
+    width: 350px;
+            }
+    
+        
+    
+    
+
+
